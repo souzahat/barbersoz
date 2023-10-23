@@ -1,0 +1,232 @@
+body{
+  background-image: url("https://i.ibb.co/kMYHKwF/Design-sem-nome-10.png"); 
+  background-size: cover;
+  background-repeat: repeat;
+  margin: 0px;
+}
+
+nav{background-color: rgba(0, 0, 0, 0.5);}
+
+a{text-decoration: none;}
+ul{list-style: none;}
+
+#footer.hover{text-decoration: underline; text-decoration-color: white; color: white;}
+a{color:#FEBD59;}
+a:hover{text-decoration: underline;}
+
+h5, h3, p{
+  color: #FEBD59;
+  
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav
+  {
+    /* border: #FEBD59 1px solid; */
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .menu
+  {
+    padding-left: 20px;
+  }
+
+  .agendamento{
+    
+    /* 
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+
+    
+    */
+
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top:70px; 
+    row-gap: 5px;
+
+    border: 1px solid #FEBD59; 
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+
+  }
+  
+  #agendamentologo{margin-right: 0.5rem;}
+  
+  .noah
+  {
+    /* border: 1px solid #FEBD59; 
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5); */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  #noah 
+  {
+    width: 85%;
+    
+    
+  }
+
+  
+
+  .container{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 55px;
+    padding: 15px;
+  }
+
+  .localizacao{
+    /* background: gray; */
+    /* border: red; */
+    /* border-style: solid; */
+    margin-top: 55px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #salao
+  {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 55px;
+  }
+  
+  
+  .salaoimg
+  {
+    width: 95%;
+    margin: auto;
+    
+  }
+
+  h5, h3
+  {
+    margin: 0px;
+  }
+
+  
+  #juninho
+  {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: auto;
+    
+  }
+  
+  .instagram
+  {
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    
+    padding-right: 0;            
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+
+  }
+ 
+  .instafooter
+  {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    
+    padding-right: 0;        
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+
+
+  }
+  
+  html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    display: flex; /* This makes the body a flex container */
+    flex-direction: column; /* Sets the flex container to have a vertical column layout. */
+    min-height: 100vh; /* Ensures that the body takes up at least the full height of the viewport. */
+    box-sizing: inherit;
+  }
+  footer {
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 15px;
+    text-align: center;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+ 
+
+
+}
+
+
+
+
+/* Mediall um devices (landscape tablets, 768px and up) */
+@media only screen and  (min-width: 768px) {
+  body  {background-color: blue;}
+  #noah {width: 50%;}
+}
+
+
+
+
+/* Largall e devices (laptops/desktops, 992px and up) */
+@media only screen and  (min-width: 992px) {
+  body  {background-color: orange;}
+} 
+
+
+
+
+/* Extrall a large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and  (min-width: 1200px) {
+  body {background-color: pink;}
+}
+
+@media only screen and  (min-width: 1200px) {
+  
+} */

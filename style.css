@@ -1,28 +1,31 @@
-body{
-  background-image: url("https://i.ibb.co/kMYHKwF/Design-sem-nome-10.png"); 
-  background-size: cover;
-  background-repeat: repeat;
-  margin: 0px;
-}
 
-nav{background-color: rgba(0, 0, 0, 0.5);}
-
-a{text-decoration: none;}
-ul{list-style: none;}
-
-#footer.hover{text-decoration: underline; text-decoration-color: white; color: white;}
-a{color:#FEBD59;}
-a:hover{text-decoration: underline;}
-
-h5, h3, p{
-  color: #FEBD59;
-  
-}
 
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+  body{
+    background-image: url("https://i.ibb.co/kMYHKwF/Design-sem-nome-10.png"); 
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 0px;
+  }
+  
+  nav{background-color: rgba(0, 0, 0, 0.5);}
+  
+  a{text-decoration: none;}
+  ul{list-style: none;}
+  
+  #footer.hover{text-decoration: underline; text-decoration-color: white; color: white;}
+  a{color:#FEBD59;}
+  a:hover{text-decoration: underline;}
+  
+  h5, h3, p{
+    color: #FEBD59;
+    
+  }
+  
   .nav
   {
     /* border: #FEBD59 1px solid; */

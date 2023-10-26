@@ -97,8 +97,8 @@
   {
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr ; 
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     align-items: center;
     justify-items: center;
     column-gap: 2px;
@@ -112,7 +112,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    /* width: 50%; */
     margin: auto;
   }
 
@@ -120,8 +120,8 @@
   
   {
     margin: 0;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 1px solid #FEBD59;  
     
   }

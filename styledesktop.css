@@ -222,23 +222,23 @@
   
 
 
-  #p1 {text-align: center; font-size: 25px; width: 60%;}
+  
 
   #mapa {height: 500px;width: 100%;}
 
-  footer 
-  {
-    background: rgba(0, 0, 0);
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: baseline;
-    padding: 15px;
-    text-align: center;
-    margin-top: auto; /* Push the footer to the bottom */
-  }
+    footer 
+    {
+      background: rgba(0, 0, 0);
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: space-evenly;
+      flex-direction: row;
+      align-items: baseline;
+      padding: 15px;
+      text-align: center;
+      margin-top: auto; /* Push the footer to the bottom */
+    }
   #footer.hover
   {
     
@@ -247,6 +247,17 @@
     color: white;
   }
   
+  div footerbox{
+    background-color: red;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+    row-gap: 25px;
+    width: 80%;
+    margin: 25px;
+  }
 
   /* HEADER FIXER */
   html {

@@ -15,10 +15,11 @@
   margin: auto;
   margin-top: 180px;}
 
+  strong, span{color: #FEBD59; font-weight: bold;}
   
   h1, .agendamento a, .nav ul, .nav a {font-size: 16px;}
   h2{font-size: 14px;color: #FEBD59}
-  p, #p1 {text-align: center; font-size: 12px; width: 60%;}
+  p, #p1 {text-align: center; font-size: 12px; width: 80%;}
   h3, h4, h5{color: white;font-size: 12px;margin: 0px;}
   
 
@@ -251,6 +252,25 @@ footer
   text-decoration: underline;
   text-decoration-color: white; 
   color: white;
+}
+
+
+.item1 {grid-area: item1;}
+.item2 {grid-area: item2;}
+.item3 {grid-area: item3;}
+ 
+.footerbox{
+  
+  display: grid;
+  justify-content: center;
+  grid-template-areas:
+   'item1 item2'
+    'item3 item3';
+  column-gap: 10px;
+  
+
+  
+  
 }
 
 

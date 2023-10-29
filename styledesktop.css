@@ -24,8 +24,8 @@
     justify-content: center;
     align-items: center;}
   
-    p, h1, h2, h3, h4, h5, li, a, ul .agendamento a, .nav ul, .nav a {font-size: 26px;}
-    h5, h2, h3{color: white;margin: 0px;}
+    
+    
     ul{
     display: flex;
     flex-direction: row;
@@ -247,17 +247,26 @@
     color: white;
   }
   
-  div footerbox{
-    background-color: red;
+
+  .item1 {grid-area: item1;}
+  .item2 {grid-area: item2;}
+  .item3 {grid-area: item3;}
+   
+  .footerbox{
+    
+    width: 80%;
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr;
+    grid-template-areas:
+     'item1 item2'
+      'item3 item3';
     column-gap: 10px;
-    row-gap: 25px;
-    width: 80%;
-    margin: 25px;
+    
+  
+    
+    
   }
+  
 
   /* HEADER FIXER */
   html {

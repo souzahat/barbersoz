@@ -24,8 +24,8 @@
     justify-content: center;
     align-items: center;}
   
-    h1, .agendamento a, .nav ul, .nav a {font-size: 26px;}
-    h5, h3{color: white;font-size: 25px;margin: 0px;}
+    p, h1, h2, h3, h4, h5, li, a, ul .agendamento a, .nav ul, .nav a {font-size: 26px;}
+    h5, h2, h3{color: white;margin: 0px;}
     ul{
     display: flex;
     flex-direction: row;
@@ -41,8 +41,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: rgba(0, 0, 0, 0.5);
-      width: 100%;
+      width: 80%;
       margin-top: 25px;
     }
 
@@ -74,13 +73,14 @@
       box-shadow: #FEBD59;
       padding: 25px;}
 
-    .boxservicos
+    .sectionbox
     {
+      margin: auto;
       display: flex;
       align-items: center;
       justify-content: center;
       background-color: rgba(0, 0, 0, 0.5);
-      width: 100%;
+      width: 60%;
       margin-top: 25px;
     }
     
@@ -88,8 +88,8 @@
     {
       display: grid;
       justify-content: center;
-      grid-template-columns: 1fr ; 
-      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
       column-gap: 10px;
       row-gap: 25px;
       width: 80%;

@@ -28,24 +28,37 @@
   
 
   
-  nav{background-color: rgba(0, 0, 0);}
+  main{
+    width: 90%;
+    margin: auto;
+    margin-top: 180px;}
 
-  nav{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr;
-    align-items: center;
-    justify-items: center;}
-
+    header{
+    position:sticky ;
+    top: 0;
+    width: 100%;}
   
-  ul{
-    display: flex;
+    .title{display: flex; justify-content: center; align-items: center; font-family: 'Abril Fatface', serif;}
+
+    nav{
+    display: flex; 
     align-items: center;
     justify-content: center;
-    flex-direction: column;}
+    }
 
+    ul{padding: 0px;}
 
+    header{background-color: rgba(0, 0, 0); margin:0; margin-bottom: 15px;}
+
+    ul{
+    font-family: 'Bree Serif', serif;      
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
   .boxagendamento
   {
     display: flex;

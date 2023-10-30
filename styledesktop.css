@@ -15,25 +15,27 @@
     top: 0;
     width: 100%;}
   
-    nav{background-color: rgba(0, 0, 0);}
+    .title{display: flex; justify-content: center; align-items: center; font-family: 'Abril Fatface', serif;}
 
-    nav{
-    /* border: #FEBD59 1px solid; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;}
-  
-    
-    
+
+
+    header{background-color: rgba(0, 0, 0); margin:0; margin-bottom: 15px;}
+
     ul{
-    display: flex;
-    flex-direction: row;
+    font-family: 'Bree Serif', serif;      
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    margin: 0px;
-    padding-bottom: 25px;}
+    justify-items: center;}
+  
+    p, a{
+      font-family: 'Bree Serif', serif;
+      font-size: 25px;}
+    h1{font-size: 30;font-family: 'Abril Fatface', serif; letter-spacing: .2rem;}
+    
+
 
 
     .boxagendamento
@@ -89,11 +91,10 @@
       display: grid;
       justify-content: center;
       grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+      grid-template-rows: 1fr;
       column-gap: 10px;
       row-gap: 25px;
-      width: 80%;
-      margin: 25px;
+      
     }
   
     .imgservico
@@ -101,7 +102,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 50%;
+      height: 100%;
+      width: 100%;
       margin: auto;
     }
   
@@ -109,7 +111,8 @@
     
     {
       margin: 0;
-      width: 300px;
+      width: 100%;
+      height: 100%;
     }
   
     .textservico{
